@@ -1,11 +1,11 @@
 const chiloMetri = prompt("Km da percorrere")
 const etaUtente = prompt("Età")
-const prezzoBiglietto = km * 0.21;
+const prezzoBiglietto = chiloMetri * 0.21;
 
-if (eta < 17) {
-    prezzo = ((km * 0.21) - (((km * 0.21) * 20) / 100))
+if (etaUtente < 17) {
+    prezzoBiglietto = ((chiloMetri * 0.21) - (((chiloMetri * 0.21) * 20) / 100))
 } else if (eta >= 65) {
-    prezzo = ((km * 0.21) - (((km * 0.21) * 40) / 100))
+    prezzoBiglietto = ((chiloMetri * 0.21) - (((chiloMetri * 0.21) * 40) / 100))
 }
 
 chiloMetri = document.getElementById("km");
